@@ -1,0 +1,52 @@
+{
+  "info": {
+    "_postman_id": "aed7e6c7-1a9e-4908-ab21-58f330cab450",
+    "name": "ITC",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "https://www.google.com/search?q=kapan",
+      "_postman_id": "aea31383-af8d-4fab-9988-e18c81c61682",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "{google}"
+      },
+      "response": []
+    },
+    {
+      "name": "Search",
+      "_postman_id": "687040d8-2ad3-48b7-a9b3-3f8abf17db99",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://www.google.com/search?q=kapan",
+          "protocol": "https",
+          "host": [
+            "www",
+            "google",
+            "com"
+          ],
+          "path": [
+            "search"
+          ],
+          "query": [
+            {
+              "key": "q",
+              "value": "kapan"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
